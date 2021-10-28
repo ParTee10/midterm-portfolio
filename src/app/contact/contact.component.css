@@ -1,0 +1,39 @@
+h2 {
+  text-align: center;
+}
+mat-card-content {
+  padding-top: 30px;
+  padding-left: 50px;
+  background-image: url(../../assets/contact1.jpg);
+  height: 300px;
+}
+mat-icon {
+  margin: 10px;
+}
+span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+p {
+  font-style: italic;
+  font-weight: bold;
+  font: 2em medium;
+  text-decoration: underline;
+}
+.social a {
+  display: inline-block;
+  color: black;
+  margin-right: 15px;
+  transition: transform 0.3s;
+  font-size: x-large;
+  padding-left: 17px;
+}
+.social a:hover {
+  transform: scale(1.6);
+  color: rgb(37, 122, 219);
+}
+h6 {
+  font-size: larger;
+  padding-top: 40px;
+  padding-left: 17px;
+}
